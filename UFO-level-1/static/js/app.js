@@ -34,7 +34,7 @@ function runEnter() {
   console.log(inputValue);
   console.log(tableData);
 
-  var filteredData = tableData.filter(asdf => asdf.datetime === inputValue);
+  var filteredData = tableData.filter(data => data.datetime === inputValue);
   console.log(filteredData);
   TableMaker(filteredData);
 
