@@ -1,4 +1,4 @@
-// from data.js
+// from data.js assing all of the data to variable name tabledata
 var tableData = data;
 
 // Get a reference to the table body
