@@ -40,7 +40,7 @@ function runEnter() {
 
  };
  
-
+ //create function to make a table
 function TableMaker(filteredData) {
 var tbody = d3.select("tbody");
 tbody.html("");
